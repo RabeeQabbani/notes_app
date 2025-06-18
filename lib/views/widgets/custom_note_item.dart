@@ -21,11 +21,11 @@ class CustomNoteItem extends StatelessWidget {
               style: TextStyle(color: Colors.black, fontSize: 26),
             ),
             subtitle: Padding(
-              padding: const EdgeInsets.only(top: 16, bottom: 16),
+              padding: const EdgeInsets.symmetric(vertical: 16),
               child: Text(
                 "Build your career with rabee qabbani",
                 style: TextStyle(
-                  color: Colors.black.withOpacity(0.5),
+                  color: Colors.black.withOpacity(0.4),
                   fontSize: 18,
                 ),
               ),
