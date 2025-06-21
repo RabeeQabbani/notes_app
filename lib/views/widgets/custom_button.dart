@@ -15,7 +15,7 @@ class CustomButton extends StatelessWidget {
       ),
       child: Center(
         child: Text(
-          "Save",
+          "Add",
           style: TextStyle(
             color: Colors.black,
             fontSize: 20,
