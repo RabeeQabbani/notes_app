@@ -10,14 +10,14 @@ class CustomTextField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextField(
-      cursorColor: primaryColor,
+      cursorColor: kPrimaryColor,
       maxLines: maxLines,
       decoration: InputDecoration(
         hintText: hintText,
         //hintStyle: const TextStyle(color: primaryColor),
         border: buildBorder(),
         enabledBorder: buildBorder(),
-        focusedBorder: buildBorder(primaryColor),
+        focusedBorder: buildBorder(kPrimaryColor),
       ),
     );
   }
