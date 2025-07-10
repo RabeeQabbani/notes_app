@@ -4,6 +4,7 @@ part of 'add_note_cubit.dart';
 sealed class AddNoteState {}
 
 final class AddNoteInitial extends AddNoteState {}
+<<<<<<< HEAD
 
 final class AddNoteLoading extends AddNoteState {}
 
@@ -14,3 +15,5 @@ final class AddNoteFailure extends AddNoteState {
 
   AddNoteFailure(this.errMessage);
 }
+=======
+>>>>>>> 1f1dfa5593c8463761023d4a350f515bf87ef5c7
